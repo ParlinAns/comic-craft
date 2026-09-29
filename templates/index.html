@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>Tell us a story.<br>We'll draw it.</h1>
+  <p>Describe your idea and get a multi-panel comic with captions, speech bubbles and a printable PDF.</p>
+</section>
+
+{% if mock %}<div class="note note--info">Mock mode is on: no AI services are called, panels use placeholder art.</div>{% endif %}
+{% if error %}<div class="note note--error" role="alert">{{ error }}</div>{% endif %}
+
+<form id="comic-form" class="sheet" method="post" action="/generate-comic">
+  <label class="field field--wide">
+    <span>Story idea</span>
+    <textarea name="story_prompt" rows="4" required minlength="3" maxlength="2000"
+      placeholder="A brave fox explores an enchanted forest.">{{ form.story_prompt or "" }}</textarea>
+  </label>
+  <label class="field">
+    <span>Main character</span>
+    <input name="character_name" maxlength="100" placeholder="Lumi" value="{{ form.character_name or '' }}">
+  </label>
+  <label class="field">
+    <span>Setting</span>
+    <input name="setting" maxlength="200" placeholder="Enchanted forest" value="{{ form.setting or '' }}">
+  </label>
+  <label class="field">
+    <span>Tone</span>
+    <select name="tone">
+      {% for t in tones %}<option value="{{ t }}" {{ 'selected' if (form.tone or 'funny') == t }}>{{ t|capitalize }}</option>{% endfor %}
+    </select>
+  </label>
+  <label class="field">
+    <span>Art style</span>
+    <select name="art_style">
+      {% for s in styles %}<option value="{{ s }}" {{ 'selected' if (form.art_style or 'comic book') == s }}>{{ s|capitalize }}</option>{% endfor %}
+    </select>
+  </label>
+  <button class="btn" type="submit">Create My Comic</button>
+</form>
+
+<div id="loading" class="loading" hidden aria-live="polite">
+  <div class="loading__card">
+    <div class="loading__pow">POW!</div>
+    <p id="loading-msg">Planning your panels...</p>
+    <small>Real AI drawing can take up to a minute.</small>
+  </div>
+</div>
+{% endblock %}

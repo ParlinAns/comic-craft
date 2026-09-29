@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} - ComicCraft{% endblock %}
+{% block content %}
+<section class="hero hero--small">
+  <h1>{{ title }}</h1>
+  <p>{{ message }}</p>
+</section>
+{% if detail %}<details class="note note--error"><summary>Technical details (HTTP {{ status }})</summary><pre>{{ detail }}</pre></details>{% endif %}
+<div class="actions"><a class="btn" href="/">Back to start</a></div>
+{% endblock %}

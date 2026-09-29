@@ -1,0 +1,68 @@
+{
+  "id": "ef25694d1dd2",
+  "title": "Arun and the Realm of the Tome",
+  "request": {
+    "story_prompt": "Story idea:\r\nA brave young man discovers a mysterious ancient book in his college library. When he opens it, the book transports him into a magical world where he must solve three challenges to find his way back home.",
+    "character_name": "Arun",
+    "setting": "A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle",
+    "tone": "adventurous",
+    "art_style": "comic book"
+  },
+  "panels": [
+    {
+      "number": 1,
+      "title": "The Forgotten Grimoire",
+      "scene": "In a dimly lit college library, Arun opens a dust-covered, glowing ancient book as swirling golden runes burst from its pages and pull him inside.",
+      "narration": "In a dimly lit college library, Arun opens a dust-covered, glowing ancient book as swirling golden runes burst from its pages and pull him inside.",
+      "dialogue": "Today is going to be interesting!",
+      "image_prompt": "In a dimly lit college library, Arun opens a dust-covered, glowing ancient book as swirling golden runes burst from its pages and pull him inside. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/ef25694d1dd2_1.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\ef25694d1dd2_1.png"
+    },
+    {
+      "number": 2,
+      "title": "Trial of the Whispering Woods",
+      "scene": "Arun stands in a bioluminescent enchanted forest, carefully deciphering glowing riddle runes etched onto the bark of an enormous, ancient talking tree.",
+      "narration": "Arun stands in a bioluminescent enchanted forest, carefully deciphering glowing riddle runes etched onto the bark of an enormous, ancient talking tree.",
+      "dialogue": "Stay close. We're going in.",
+      "image_prompt": "Arun stands in a bioluminescent enchanted forest, carefully deciphering glowing riddle runes etched onto the bark of an enormous, ancient talking tree. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/ef25694d1dd2_2.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\ef25694d1dd2_2.png"
+    },
+    {
+      "number": 3,
+      "title": "Trial of the Ruined Path",
+      "scene": "Leaping across crumbling stone pillars suspended over an abyss in ancient ruins, Arun bravely dodges swirling orbs of arcane energy.",
+      "narration": "Leaping across crumbling stone pillars suspended over an abyss in ancient ruins, Arun bravely dodges swirling orbs of arcane energy.",
+      "dialogue": "I have an idea!",
+      "image_prompt": "Leaping across crumbling stone pillars suspended over an abyss in ancient ruins, Arun bravely dodges swirling orbs of arcane energy. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/ef25694d1dd2_3.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\ef25694d1dd2_3.png"
+    },
+    {
+      "number": 4,
+      "title": "Trial of the Hidden Castle",
+      "scene": "At the grand gates of a floating castle, Arun triumphantly inserts a magical crystal key into a massive celestial lock, causing a radiant exit portal to ignite.",
+      "narration": "At the grand gates of a floating castle, Arun triumphantly inserts a magical crystal key into a massive celestial lock, causing a radiant exit portal to ignite.",
+      "dialogue": "Hold on tight!",
+      "image_prompt": "At the grand gates of a floating castle, Arun triumphantly inserts a magical crystal key into a massive celestial lock, causing a radiant exit portal to ignite. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/ef25694d1dd2_4.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\ef25694d1dd2_4.png"
+    },
+    {
+      "number": 5,
+      "title": "The Journey Home",
+      "scene": "Arun steps out of the blinding light and collapses safely onto the library floor, smiling proudly as the ancient book snaps shut beside him.",
+      "narration": "Arun steps out of the blinding light and collapses safely onto the library floor, smiling proudly as the ancient book snaps shut beside him.",
+      "dialogue": "Best. Day. Ever.",
+      "image_prompt": "Arun steps out of the blinding light and collapses safely onto the library floor, smiling proudly as the ancient book snaps shut beside him. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/ef25694d1dd2_5.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\ef25694d1dd2_5.png"
+    }
+  ],
+  "warnings": [
+    "Gemini story failed, offline text used. Reason: Gemini request failed. gemini-3.5-flash -> ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} | gemini-3.5-flash -> ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model "
+  ],
+  "mock": false,
+  "created_at": "2026-09-29T08:33:05+00:00"
+}

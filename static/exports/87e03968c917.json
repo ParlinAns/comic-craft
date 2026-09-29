@@ -1,0 +1,68 @@
+{
+  "id": "87e03968c917",
+  "title": "Story idea:\r\nA brave young man discovers a mysterious anc...",
+  "request": {
+    "story_prompt": "Story idea:\r\nA brave young man discovers a mysterious ancient book in his college library. When he opens it, the book transports him into a magical world where he must solve three challenges to find his way back home.",
+    "character_name": "Arun",
+    "setting": "A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle",
+    "tone": "adventurous",
+    "art_style": "comic book"
+  },
+  "panels": [
+    {
+      "number": 1,
+      "title": "Meet Arun",
+      "scene": "Arun is introduced in A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, ready for whatever the day brings. Story seed: Story idea:\r\nA brave young man discovers a mysterious ancient book in his college library. When he opens it, the book transports him into a magical world where he must solve three challenges to find his way back home.",
+      "narration": "Arun is introduced in A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, ready for whatever the day brings. Story seed: Story idea:\r\nA brave young man discovers a mysterious ancient book in his college library. When he opens it, the book transports him into a magical world where he must solve three challenges to find his way back home.",
+      "dialogue": "Today is going to be interesting!",
+      "image_prompt": "Arun is introduced in A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, ready for whatever the day brings. Story seed: Story idea:\r\nA brave young man discovers a mysterious ancient book in his college library. When he opens it, the book transports him into a magical world where he must solve three challenges to find his way back home. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/87e03968c917_1.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\87e03968c917_1.png"
+    },
+    {
+      "number": 2,
+      "title": "Into the unknown",
+      "scene": "Arun follows the clue deeper into A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, leaving the familiar behind.",
+      "narration": "Arun follows the clue deeper into A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, leaving the familiar behind.",
+      "dialogue": "Stay close. We're going in.",
+      "image_prompt": "Arun follows the clue deeper into A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle, leaving the familiar behind. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/87e03968c917_2.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\87e03968c917_2.png"
+    },
+    {
+      "number": 3,
+      "title": "A clever plan",
+      "scene": "Arun comes up with a bold, adventurous plan.",
+      "narration": "Arun comes up with a bold, adventurous plan.",
+      "dialogue": "I have an idea!",
+      "image_prompt": "Arun comes up with a bold, adventurous plan. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/87e03968c917_3.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\87e03968c917_3.png"
+    },
+    {
+      "number": 4,
+      "title": "Things go sideways",
+      "scene": "The plan works, just not the way anyone expected.",
+      "narration": "The plan works, just not the way anyone expected.",
+      "dialogue": "Hold on tight!",
+      "image_prompt": "The plan works, just not the way anyone expected. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/87e03968c917_4.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\87e03968c917_4.png"
+    },
+    {
+      "number": 5,
+      "title": "A happy ending",
+      "scene": "Back where it all began, Arun smiles. Nothing will be quite the same.",
+      "narration": "Back where it all began, Arun smiles. Nothing will be quite the same.",
+      "dialogue": "Best. Day. Ever.",
+      "image_prompt": "Back where it all began, Arun smiles. Nothing will be quite the same. Main character: Arun. Setting: A mysterious magical world with an enchanted forest, ancient ruins, and a hidden castle. Mood: adventurous.",
+      "image_url": "/static/panels/87e03968c917_5.png",
+      "image_path": "C:\\Users\\USER\\Downloads\\ComicCraft_patched\\ComicCraft\\static\\panels\\87e03968c917_5.png"
+    }
+  ],
+  "warnings": [
+    "Gemini outline failed, offline template used. Reason: GEMINI_API_KEY is missing in .env"
+  ],
+  "mock": false,
+  "created_at": "2026-09-29T08:13:38+00:00"
+}

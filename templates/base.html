@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}ComicCraft{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="/"><span>Comic</span>Craft</a>
+    <span class="tag">story in, comic out</span>
+  </header>
+  <main>{% block content %}{% endblock %}</main>
+  <footer class="foot">ComicCraft &middot; FastAPI + Gemini + Hugging Face</footer>
+  <script src="/static/js/app.js" defer></script>
+</body>
+</html>

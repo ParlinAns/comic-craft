@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}PDF ready - ComicCraft{% endblock %}
+{% block content %}
+<section class="hero hero--small">
+  <h1>Your PDF is ready</h1>
+  <p>"{{ comic.title }}" has been exported.</p>
+</section>
+<div class="actions">
+  <a class="btn" href="/download/{{ comic.id }}">Download PDF</a>
+  <a class="btn btn--ghost" href="/comic/{{ comic.id }}">Back to comic</a>
+  <a class="btn btn--ghost" href="/">New comic</a>
+</div>
+{% endblock %}
